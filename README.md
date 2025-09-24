@@ -1,4 +1,5 @@
 # Used Car Pricing Analysis 🚗📊
+Projeto feito em parceria com: @Arthurmc95
 
 ## Descrição do Projeto
 Análise estatística completa de preços de carros usados utilizando R. 
