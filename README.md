@@ -1,10 +1,11 @@
-Used Car Pricing Analysis 🚗📊
-Project Description
+#Used Car Pricing Analysis 🚗📊
+
+##Project Description
 
 Complete statistical analysis of used car prices using R.
 The project explores probability distributions, correlations, and factors that influence vehicle prices.
 
-📁 Repository Structure
+##📁 Repository Structure
 text
 
 used-car-pricing-analysis/
