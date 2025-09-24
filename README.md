@@ -1,79 +1,84 @@
-# Used Car Pricing Analysis 🚗📊
+Used Car Pricing Analysis 🚗📊
+Project Description
 
-## Descrição do Projeto
-Análise estatística completa de preços de carros usados utilizando R. 
-O projeto explora distribuições de probabilidade, correlações e fatores que influenciam o preço de veículos.
+Complete statistical analysis of used car prices using R.
+The project explores probability distributions, correlations, and factors that influence vehicle prices.
 
-## 👥 Collaborative Project
-This statistical analysis of used car prices was developed in partnership with [Arthur Martins](https://github.com/arthurmc95).
-
-## 📁 Estrutura do Repositório
+📁 Repository Structure
+text
 
 used-car-pricing-analysis/
 │
-├── data/ # Datasets
-│ └── raw/ # Dados brutos
-│ └── dataset_sem_owner.csv
+├── data/                 # Datasets
+│   └── raw/             # Raw data
+│       └── dataset_sem_owner.csv
 │
-├── scripts/ # Códigos R organizados
-│ ├── 01_data_cleaning.R
-│ ├── 02_descriptive_analysis.R
-│ ├── 03_statistical_tests.R
-│ └── 04_visualizations.R
+├── scripts/             # Organized R scripts
+│   ├── 01_data_cleaning.R
+│   ├── 02_descriptive_analysis.R
+│   ├── 03_statistical_tests.R
+│   └── 04_visualizations.R
 │
-├── analysis/ # Análises completas
-│ └── main_analysis.R
+├── analysis/            # Complete analyses
+│   └── main_analysis.R
 │
-└── outputs/ # Resultados (gerados automaticamente)
-├── figures/
-└── tables/
-text
+└── outputs/            # Results (automatically generated)
+    ├── figures/
+    └── tables/
 
-
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-```r
-# Instalar pacotes necessários
-install.packages(c("fitdistrplus", "readr", "dplyr", "knitr"))
-
-Execução em Ordem
+🚀 How to Run the Project
+Prerequisites
 r
 
-# 1. Limpeza de dados
+# Install required packages
+install.packages(c("fitdistrplus", "readr", "dplyr", "knitr"))
+
+Execution Order
+r
+
+# 1. Data cleaning
 source("scripts/01_data_cleaning.R")
 
-# 2. Análise descritiva
+# 2. Descriptive analysis
 source("scripts/02_descriptive_analysis.R")
 
-# 3. Testes estatísticos
+# 3. Statistical tests
 source("scripts/03_statistical_tests.R")
 
-# 4. Visualizações
+# 4. Visualizations
 source("scripts/04_visualizations.R")
 
-📊 Principais Resultados
+📊 Main Results
 
-    Correlação Preço Atual vs Venda: 0.87
+    Current Price vs Selling Price Correlation: 0.87
 
-    Distribuição mais adequada: Gamma
+    Most Suitable Distribution: Gamma
 
-    Fator mais influente: Preço atual do veículo
+    Most Influential Factor: Present Price
 
-    Transmissão mais valorizada: Automática
+    Most Valued Transmission: Automatic
 
-🔍 Métodos Estatísticos Utilizados
+🔍 Statistical Methods Used
 
-    Ajuste de distribuições (Normal e Gamma)
+    Distribution fitting (Normal, Gamma)
 
-    Análise de correlação
+    Correlation analysis
 
-    Visualização de dados
+    Data visualization
 
-👨‍💻 Autor
+👥 Collaborative Project
 
-Eduardo Miguel Ribeiro Cordeiro - edumiguelcordeiro@gmail.com
+This statistical analysis of used car prices was developed in partnership with [https://github.com/arthurmc95].
 
-📄 Licença
+Team Contributions:
 
-Este projeto é para fins educacionais.
+    [Eduardo Miguel]: Statistical modeling, distribution fitting, hypothesis testing
+
+    [Arthur Martins]: Data visualization, correlation analysis, project documentation
+
+👨‍💻 Author
+
+Eduardo Miguel - edumiguelcordeiro@gmail.com
+📄 License
+
+This project is for educational purposes.
