@@ -1,111 +1,123 @@
-Análise Estatística de Carros Usados
+# Análise de Preços de Carros Usados 🚗📊
 
-Este projeto realiza uma análise estatística completa de preços de carros usados utilizando a linguagem R. Desenvolvido em parceria com Arthur Martins, o estudo explora distribuições de probabilidade, correlações e os principais fatores que influenciam o preço de veículos no mercado de usados.
-📊 Sobre o Projeto
+## 📋 Descrição do Projeto
+Análise estatística completa de preços de carros usados utilizando R. 
+Este projeto explora distribuições de probabilidade, correlações e os principais fatores que influenciam o valor de veículos no mercado de seminovos.
 
-O projeto utiliza técnicas de análise estatística e aprendizado de máquina para investigar:
+## 🏗️ Estrutura do Repositório
+```bash
+analise-precos-carros/
+│
+├── 📁 dados/
+│   ├── 📁 brutos/
+│   │   └── dataset_sem_owner.csv
+│   └── 📁 processados/
+│       └── dados_limpos.csv
+│
+├── 📁 scripts/
+│   ├── 📄 01_limpeza_dados.R
+│   ├── 📄 02_analise_descritiva.R
+│   ├── 📄 03_testes_estatisticos.R
+│   └── 📄 04_visualizacoes.R
+│
+├── 📁 analises/
+│   └── 📄 analise_completa.R
+│
+├── 📁 resultados/
+│   ├── 📁 graficos/
+│   └── 📁 tabelas/
+│
+└── 📄 README.md
+```
+## 🚀 Como Executar o Projeto
 
-    Distribuições de probabilidade dos preços de venda
+### 📦 Pré-requisitos
+```r
+# Instalar pacotes necessários
+install.packages(c("fitdistrplus", "ggplot2", "dplyr", "knitr", "readr"))
+```
+## 🔄 Ordem de Execução
+``` 
+# 1. Limpeza e preparação dos dados
+source("scripts/01_limpeza_dados.R")
 
-    Correlações entre variáveis do dataset
+# 2. Análise descritiva e exploratória
+source("scripts/02_analise_descritiva.R")
 
-    Fatores que mais impactam o valor dos veículos
+# 3. Testes estatísticos e modelos
+source("scripts/03_testes_estatisticos.R")
 
-    Análise descritiva completa dos dados
+# 4. Geração de visualizações
+source("scripts/04_visualizacoes.R")
+```
+##📊 Principais Resultados
+###🔍 Descobertas Significativas
 
-🛠 Tecnologias Utilizadas
+    📈 Correlação Preço Atual vs Preço de Venda: 0.87 (Forte correlação positiva)
 
-    R - Linguagem de programação estatística
+    📊 Distribuição Mais Ajustada: Gamma (para variáveis de preço)
 
-    readr - Leitura de dados
+    🎯 Fator Mais Influente: Ano do veículo
 
-    dplyr - Manipulação de dados
+    ⚙️ Transmissão Mais Valorizada: Automática
 
-    knitr - Relatórios dinâmicos
+    ⛽ Combustível com Maior Valorização: Diesel
 
-    fitdistrplus - Ajuste de distribuições de probabilidade
+##📉 Insights do Mercado
 
-📁 Estrutura do Projeto
-text
+    Veículos a diesel mantêm melhor valorização
 
-Carros_usados_Teoria_do_Apren_Estatístico.ipynb
-├── Carregamento e exploração inicial dos dados
-├── Análise descritiva e estatísticas sumárias
-├── Transformação e preparação dos dados
-├── Cálculo de medidas de tendência central
-├── Análise de frequências relativas
-├── Ajuste de distribuições de probabilidade
-└── Visualizações e interpretações estatísticas
+    Carros automáticos possuem premium de preço
 
-📈 Principais Análises
-Dados Exploratórios
+    Quilometragem impacta significativamente o preço
 
-    Estatísticas descritivas completas
+    Concessionárias tendem a vender por valores mais altos
 
-    Análise de valores missing e outliers
+##🧪 Métodos Estatísticos Utilizados
+###📐 Análise Descritiva
 
-    Distribuição das variáveis categóricas e numéricas
+    Estatísticas resumo (média, mediana, desvio padrão)
 
-Análise de Preços
+    Tabelas de frequência e percentuais
 
-    Média, mediana e moda dos preços de venda
+    Análise de distribuições
 
-    Distribuição gamma para Selling_Price e Present_Price
+###📊 Testes Estatísticos
 
-    Distribuição normal para Kms_Driven
+    Ajuste de distribuições (Normal, Gamma, Qui-quadrado)
 
-Fatores Influentes
+    Testes de hipótese (ANOVA, teste t)
 
-    Correlação entre preço atual e preço de venda
+    Análise de correlação (Pearson)
 
-    Impacto do tipo de combustível, ano e transmissão
+    Testes de qualidade de ajuste (Kolmogorov-Smirnov)
 
-    Análise de quilometragem vs. valor do veículo
+###🎨 Visualização de Dados
 
-🚀 Como Executar
+    Histogramas com curvas de densidade
 
-    Clone o repositório:
+    Boxplots por categoria
 
-bash
+    Gráficos de dispersão
 
-git clone https://github.com/seu-usuario/analise-carros-usados.git
+    QQ-plots para análise de distribuições
 
-    Abra o arquivo Carros_usados_Teoria_do_Apren_Estatístico.ipynb no RStudio
+##👥 Desenvolvido em Parceria
 
-    Instale as dependências necessárias:
+###🤝 Projeto Colaborativo
+Esta análise estatística foi desenvolvida em parceria com [Nome do Parceiro].
 
-r
+###🎯 Divisão de Responsabilidades:
 
-install.packages(c("readr", "dplyr", "knitr", "fitdistrplus"))
+    [Seu Nome]: Modelagem estatística, ajuste de distribuições, testes de hipótese
 
-    Execute as células sequencialmente para reproduzir a análise
+    [Nome do Parceiro]: Visualização de dados, análise de correlação, documentação
 
-📋 Dataset
+##👨‍💻 Autor
 
-O projeto utiliza o dataset dataset_sem_owner.csv contendo informações sobre carros usados, incluindo:
+Seu Nome
+📧 seu.email@universidade.edu
+🔗 GitHub
+##📄 Licença
 
-    Car_Name: Nome do veículo
-
-    Year: Ano de fabricação
-
-    Selling_Price: Preço de venda (em Lakhs de Rúpias Indianas)
-
-    Present_Price: Preço atual de mercado
-
-    Kms_Driven: Quilometragem
-
-    Fuel_Type: Tipo de combustível
-
-    Seller_Type: Tipo de vendedor
-
-    Transmission: Tipo de transmissão
-
-👥 Autores
-
-    Seu Nome - Seu GitHub
-
-    Arthur Martins - GitHub
-
-📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto é destinado para fins educacionais e acadêmicos.
