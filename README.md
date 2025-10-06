@@ -51,6 +51,7 @@ source("scripts/03_testes_estatisticos.R")
 source("scripts/04_visualizacoes.R")
 ```
 ## 📊 Principais Resultados
+
 ### 🔍 Descobertas Significativas
 
     📈 Correlação Preço Atual vs Preço de Venda: 0.87 (Forte correlação positiva)
@@ -74,6 +75,7 @@ source("scripts/04_visualizacoes.R")
     Concessionárias tendem a vender por valores mais altos
 
 ## 🧪 Métodos Estatísticos Utilizados
+
 ### 📐 Análise Descritiva
 
     Estatísticas resumo (média, mediana, desvio padrão)
@@ -84,13 +86,11 @@ source("scripts/04_visualizacoes.R")
 
 ### 📊 Testes Estatísticos
 
-    Ajuste de distribuições (Normal, Gamma, Qui-quadrado)
+    Ajuste de distribuições (Normal, Gamma)
 
     Testes de hipótese (ANOVA, teste t)
 
     Análise de correlação (Pearson)
-
-    Testes de qualidade de ajuste (Kolmogorov-Smirnov)
 
 ### 🎨 Visualização de Dados
 
@@ -99,8 +99,6 @@ source("scripts/04_visualizacoes.R")
     Boxplots por categoria
 
     Gráficos de dispersão
-
-    QQ-plots para análise de distribuições
 
 ## 👥 Desenvolvido em Parceria
 
@@ -115,8 +113,10 @@ Esta análise estatística foi desenvolvida em parceria com [[@arthurmc95](https
 
 ## 👨‍💻 Autor
 
-Eduardo Miguel Ribeiro Cordeir
+Eduardo Miguel Ribeiro Cordeiro
+
 📧 edumiguelcordeiro@gmail.com
+
 🔗 https://github.com/eduardomrcordeiro
 
 ## 📄 Licença
