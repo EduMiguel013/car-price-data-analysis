@@ -117,7 +117,7 @@ Eduardo Miguel Ribeiro Cordeiro
 
 📧 edumiguelcordeiro@gmail.com
 
-🔗 https://github.com/eduardomrcordeiro
+🔗 https://github.com/EduMiguel013
 
 ## 📄 Licença
 
