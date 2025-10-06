@@ -1,84 +1,111 @@
-# Used Car Pricing Analysis 🚗📊
+Análise Estatística de Carros Usados
 
-## Descrição do Projeto
-Análise estatística completa de preços de carros usados utilizando R. 
-O projeto explora distribuições de probabilidade, correlações e fatores que influenciam o preço de veículos.
+Este projeto realiza uma análise estatística completa de preços de carros usados utilizando a linguagem R. Desenvolvido em parceria com Arthur Martins, o estudo explora distribuições de probabilidade, correlações e os principais fatores que influenciam o preço de veículos no mercado de usados.
+📊 Sobre o Projeto
 
-## 📁 Estrutura do Repositório
+O projeto utiliza técnicas de análise estatística e aprendizado de máquina para investigar:
+
+    Distribuições de probabilidade dos preços de venda
+
+    Correlações entre variáveis do dataset
+
+    Fatores que mais impactam o valor dos veículos
+
+    Análise descritiva completa dos dados
+
+🛠 Tecnologias Utilizadas
+
+    R - Linguagem de programação estatística
+
+    readr - Leitura de dados
+
+    dplyr - Manipulação de dados
+
+    knitr - Relatórios dinâmicos
+
+    fitdistrplus - Ajuste de distribuições de probabilidade
+
+📁 Estrutura do Projeto
 text
 
-used-car-pricing-analysis/
-│
-├── data/                 # Datasets
-│   └── raw/             # Raw data
-│       └── dataset_sem_owner.csv
-│
-├── scripts/             # Organized R scripts
-│   ├── 01_data_cleaning.R
-│   ├── 02_descriptive_analysis.R
-│   ├── 03_statistical_tests.R
-│   └── 04_visualizations.R
-│
-├── analysis/            # Complete analyses
-│   └── main_analysis.R
-│
-└── outputs/            # Results (automatically generated)
-    ├── figures/
-    └── tables/
+Carros_usados_Teoria_do_Apren_Estatístico.ipynb
+├── Carregamento e exploração inicial dos dados
+├── Análise descritiva e estatísticas sumárias
+├── Transformação e preparação dos dados
+├── Cálculo de medidas de tendência central
+├── Análise de frequências relativas
+├── Ajuste de distribuições de probabilidade
+└── Visualizações e interpretações estatísticas
 
-🚀 How to Run the Project
-Prerequisites
+📈 Principais Análises
+Dados Exploratórios
+
+    Estatísticas descritivas completas
+
+    Análise de valores missing e outliers
+
+    Distribuição das variáveis categóricas e numéricas
+
+Análise de Preços
+
+    Média, mediana e moda dos preços de venda
+
+    Distribuição gamma para Selling_Price e Present_Price
+
+    Distribuição normal para Kms_Driven
+
+Fatores Influentes
+
+    Correlação entre preço atual e preço de venda
+
+    Impacto do tipo de combustível, ano e transmissão
+
+    Análise de quilometragem vs. valor do veículo
+
+🚀 Como Executar
+
+    Clone o repositório:
+
+bash
+
+git clone https://github.com/seu-usuario/analise-carros-usados.git
+
+    Abra o arquivo Carros_usados_Teoria_do_Apren_Estatístico.ipynb no RStudio
+
+    Instale as dependências necessárias:
+
 r
 
-# Install required packages
-install.packages(c("fitdistrplus", "readr", "dplyr", "knitr"))
+install.packages(c("readr", "dplyr", "knitr", "fitdistrplus"))
 
-Execution Order
-r
+    Execute as células sequencialmente para reproduzir a análise
 
-# 1. Data cleaning
-source("scripts/01_data_cleaning.R")
+📋 Dataset
 
-# 2. Descriptive analysis
-source("scripts/02_descriptive_analysis.R")
+O projeto utiliza o dataset dataset_sem_owner.csv contendo informações sobre carros usados, incluindo:
 
-# 3. Statistical tests
-source("scripts/03_statistical_tests.R")
+    Car_Name: Nome do veículo
 
-# 4. Visualizations
-source("scripts/04_visualizations.R")
+    Year: Ano de fabricação
 
-📊 Main Results
+    Selling_Price: Preço de venda (em Lakhs de Rúpias Indianas)
 
-    Current Price vs Selling Price Correlation: 0.87
+    Present_Price: Preço atual de mercado
 
-    Most Suitable Distribution: Gamma
+    Kms_Driven: Quilometragem
 
-    Most Influential Factor: Present Price
+    Fuel_Type: Tipo de combustível
 
-    Most Valued Transmission: Automatic
+    Seller_Type: Tipo de vendedor
 
-🔍 Statistical Methods Used
+    Transmission: Tipo de transmissão
 
-    Distribution fitting (Normal, Gamma)
+👥 Autores
 
-    Correlation analysis
+    Seu Nome - Seu GitHub
 
-    Data visualization
+    Arthur Martins - GitHub
 
-👥 Collaborative Project
+📄 Licença
 
-This statistical analysis of used car prices was developed in partnership with [https://github.com/arthurmc95].
-
-Team Contributions:
-
-    [Eduardo Miguel]: Statistical modeling, distribution fitting, hypothesis testing
-
-    [Arthur Martins]: Data visualization, correlation analysis, project documentation
-
-👨‍💻 Author
-
-Eduardo Miguel - edumiguelcordeiro@gmail.com
-📄 License
-
-This project is for educational purposes.
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
