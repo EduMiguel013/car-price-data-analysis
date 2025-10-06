@@ -50,8 +50,8 @@ source("scripts/03_testes_estatisticos.R")
 # 4. Geração de visualizações
 source("scripts/04_visualizacoes.R")
 ```
-##📊 Principais Resultados
-###🔍 Descobertas Significativas
+## 📊 Principais Resultados
+### 🔍 Descobertas Significativas
 
     📈 Correlação Preço Atual vs Preço de Venda: 0.87 (Forte correlação positiva)
 
@@ -63,7 +63,7 @@ source("scripts/04_visualizacoes.R")
 
     ⛽ Combustível com Maior Valorização: Diesel
 
-##📉 Insights do Mercado
+### 📉 Insights do Mercado
 
     Veículos a diesel mantêm melhor valorização
 
@@ -73,8 +73,8 @@ source("scripts/04_visualizacoes.R")
 
     Concessionárias tendem a vender por valores mais altos
 
-##🧪 Métodos Estatísticos Utilizados
-###📐 Análise Descritiva
+## 🧪 Métodos Estatísticos Utilizados
+### 📐 Análise Descritiva
 
     Estatísticas resumo (média, mediana, desvio padrão)
 
@@ -82,7 +82,7 @@ source("scripts/04_visualizacoes.R")
 
     Análise de distribuições
 
-###📊 Testes Estatísticos
+### 📊 Testes Estatísticos
 
     Ajuste de distribuições (Normal, Gamma, Qui-quadrado)
 
@@ -92,7 +92,7 @@ source("scripts/04_visualizacoes.R")
 
     Testes de qualidade de ajuste (Kolmogorov-Smirnov)
 
-###🎨 Visualização de Dados
+### 🎨 Visualização de Dados
 
     Histogramas com curvas de densidade
 
@@ -102,22 +102,23 @@ source("scripts/04_visualizacoes.R")
 
     QQ-plots para análise de distribuições
 
-##👥 Desenvolvido em Parceria
+## 👥 Desenvolvido em Parceria
 
-###🤝 Projeto Colaborativo
-Esta análise estatística foi desenvolvida em parceria com [Nome do Parceiro].
+### 🤝 Projeto Colaborativo
+Esta análise estatística foi desenvolvida em parceria com [[@arthurmc95](https://github.com/arthurmc95)].
 
-###🎯 Divisão de Responsabilidades:
+### 🎯 Divisão de Responsabilidades:
 
-    [Seu Nome]: Modelagem estatística, ajuste de distribuições, testes de hipótese
+    [Eduardo Cordeiro]: Modelagem estatística, ajuste de distribuições, testes de hipótese
 
-    [Nome do Parceiro]: Visualização de dados, análise de correlação, documentação
+    [Arthur Martins]: Visualização de dados, análise de correlação, documentação
 
-##👨‍💻 Autor
+## 👨‍💻 Autor
 
-Seu Nome
-📧 seu.email@universidade.edu
-🔗 GitHub
-##📄 Licença
+Eduardo Miguel Ribeiro Cordeir
+📧 edumiguelcordeiro@gmail.com
+🔗 https://github.com/eduardomrcordeiro
+
+## 📄 Licença
 
 Este projeto é destinado para fins educacionais e acadêmicos.
